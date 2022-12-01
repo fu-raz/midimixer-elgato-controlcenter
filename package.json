@@ -1,7 +1,7 @@
 {
-  "name": "com.midi-mixer.template",
-  "version": "1.0.2",
-  "description": "A template plugin for MIDI Mixer that demonstrates how to interact with MIDI Mixer's API.",
+  "name": "midi.mixer.elgato.controlcenter",
+  "version": "0.0.1",
+  "description": "A MIDI Mixer plugin for Elgato key lights",
   "main": "lib/main.js",
   "directories": {
     "lib": "lib"
@@ -16,19 +16,24 @@
     "midi-mixer",
     "midi",
     "mixer",
-    "template",
-    "plugin"
+    "elgato",
+    "control center",
+    "keylight",
+    "keylight air",
+    "ringlight"
   ],
-  "author": "Jack Williams <@jpwilliams>",
+  "author": "Rick van Modem <rickvanmodem@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "midi-mixer-plugin": "^1.0.2"
+    "midi-mixer-plugin": "^1.0.2",
+    "ws": "^8.11.0"
   },
   "bundledDependencies": [
-    "midi-mixer-plugin"
+    "midi-mixer-plugin",
+    "ws"
   ],
   "devDependencies": {
-    "midi-mixer-cli": "^1.0.4",
+    "midi-mixer-cli": "^1.0.5",
     "typescript": "^4.5.5"
   }
 }
