@@ -1,6 +1,6 @@
 {
   "name": "midi.mixer.elgato.controlcenter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A MIDI Mixer plugin for Elgato key lights",
   "main": "lib/main.js",
   "directories": {
